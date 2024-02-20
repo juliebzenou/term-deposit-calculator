@@ -1,4 +1,5 @@
 # term-deposit-calculator
+A term deposit calculator, which using a specified start deposit amount, interest rate, investment term and how often the interest should be paid, returns the total final balance of your term deposit account given the input parameters. The method is currently accessed through the Main method inside Program.cs. 
 
 # Built With
 - .NET 7.0.203
