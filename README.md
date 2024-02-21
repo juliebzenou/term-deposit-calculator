@@ -22,7 +22,8 @@ To run:
 ```
 dotnet run
 ```
-Inside of the main method, you can edit the input parameters to test the term deposit calculator and find out your final balance.
+Inside of the main method, you can edit the input parameters to test the term deposit calculator and find out your final balance. 
+Simply run the app to see the result. 
 
 Enjoy!
 
