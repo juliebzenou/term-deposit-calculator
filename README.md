@@ -30,11 +30,17 @@ Enjoy!
 ### Unit Tests
 I would add unit tests so that the code can safely be refactored while ensuring the code's functionality has not been altered and is behaving as expected. 
 
-### Rounding
+### Rounding & Data Types
 I would take more time looking into the best rounding methods and data types to utilise in this application. Floats and doubles are both approximations and when dealing with money, I wouldn't want a program to estimate even my cents. 
-I would research if there are better data types to use when dealing with currency and check in with the client whether they want the result to be rounded to the nearest cent or the nearest dollar. 
+I would research if there are better data types to use when dealing with currency and check in with the client whether they want the final result to be rounded to the nearest cent or the nearest dollar. 
 
 ### Command Line Usability
 If I had more time, I would've made the method easier to use and directly accessible through the command line rather than having to go into the code in order to use it. When the app is run, the command line would prompt for each input it needs. This way the user would also get feedback instantly when entering invalid information, compared to the current solution where they enter all input at once but can only get feedback about one invalid input. 
 
 If even more time was allowed, I would've created a user interface and set it up in JavaScript, HTML and CSS.  
+
+### Error Handling
+I would utilise a more robust error handling strategy which could either include throwing exceptions or designing the method to return a result object that encapsulates both the calculation result and any error information. One possibility is throwing an error and returning null when invalid input is received, which the Main method could catch and print to the console. 
+
+### Input Validation for Interest Paid
+Currently, the interestPaid parameter is an enum, which is then used through a switch statement in the code.  If the business requirements change to include more frequencies or different calculation methods, the switch statement would need to be extended so I would look into other possible solutions to ensure the input is valid. 
